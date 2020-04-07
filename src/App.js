@@ -11,7 +11,7 @@ class App extends Component {
     super()
     this.state = {
         title: "React Clock",
-        viewDate: true,
+        viewDate: false,
         displayTime: "",
         displayDate: "",
     }
@@ -48,7 +48,7 @@ class App extends Component {
         ];
 
         this.setState({
-          displayDate: Days[DAY] + " " + Months[MM] + " " + DD + " " + YY
+          displayDate: Days[DAY] + " " + Months[MM] + " " + DD + ", " + YY
         });
     }, 1000);
 }
