@@ -72,7 +72,7 @@ toggleDate = () => {
           <h3 className="display-date"> {this.state.viewDate && this.state.displayDate} </h3>
         </main>
         <div className="copyright">
-          &copy; 2020 My Injamul Mohammad Mollah. All rights reserved.
+          &copy; 2020 By Injamul Mohammad Mollah. All rights reserved.
         </div>
       </div>
      );
